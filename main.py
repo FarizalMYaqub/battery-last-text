@@ -71,7 +71,7 @@ def build_entry():
 
 def main():
     count, path = build_entry()
-    print("Wrote entry to %s" % path)
+    print("Wrote %d chars to %s" % (count, path))
 
 
 if __name__ == "__main__":
